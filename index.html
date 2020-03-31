@@ -5,6 +5,7 @@
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<p class="inspiration">Inspired on Incredibox</p>
 <body>
   <div class="keys">
     <div data-key="65" class="key">
@@ -56,10 +57,6 @@
   <audio data-key="76" src="sounds/A9.wav"></audio>
 
 <script>
-  function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    e.target.classList.remove('playing');
-  }
 
   function playSound(e) 
   {
@@ -69,12 +66,9 @@
     key.classList.toggle('playing');
     audio.toggleAttribute('loop');
     audio.play();
-    audio.toggleAttribute('paused');
-
   }
 
   const keys = Array.from(document.querySelectorAll('.key'));
-  //keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
 </script>
 

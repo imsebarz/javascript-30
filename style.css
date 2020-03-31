@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background: url(https://lauratejerina.com/wp-content/uploads/2018/04/incredibox-01.jpg) bottom center;
     background-size: cover;
   }
   
@@ -19,23 +19,34 @@ html {
   }
   
   .key {
-    border: .4rem solid black;
+    border: .4rem solid #dead33;
     border-radius: .5rem;
     margin: 1rem;
+    margin-top: 35rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
-    width: 10rem;
+    width: 11rem;
+    height: 8rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    text-shadow: 0 0 1rem #ff8508;
   }
+
+  .inspiration {
+    color: white;
+    font-size:20px;
+    position: absolute;
+    text-shadow: 0 0 1rem #ff8508;
+  }
+
+
   
   .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #bd34eb;
+    box-shadow: 0 0 1rem #bd34eb;
   }
   
   kbd {
@@ -47,5 +58,5 @@ html {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #FFFFFF;
   }
