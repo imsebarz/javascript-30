@@ -1,4 +1,9 @@
 # javascript-30
 Javascript challenge from Wes Bos
-DRUM  /Beatbox/index.html
-CLOCK /Clock/index.html
+
+DRUM: 
+https://sebarz.github.io/javascript-30/Beatbox/index.html
+
+CLOCK 
+https://sebarz.github.io/javascript-30/clock/index.html
+
