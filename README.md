@@ -8,7 +8,7 @@ DAY 1: [Beatbox drum pad](https://sebarz.github.io/javascript-30/Beatbox/)
 
 DAY 2: [CSS Clock](https://sebarz.github.io/javascript-30/clock)
 
-DAY 3: [Playing with CSS variables](https://sebarz.github.io/javascript-30/CSSvariable)
+DAY 3: [Playing with CSS variables](https://sebarz.github.io/javascript-30/CSSvariables)
 
 DAY 4: [Array cardio Day 1](https://sebarz.github.io/javascript-30/cardioDay1)
 
