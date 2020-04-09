@@ -1,6 +1,8 @@
 # CODEX JAVASCRIPT30
-By @wesbos 
+
+By @wesbos
 #Codexjavascript30
+
 
 
 
