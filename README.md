@@ -1,9 +1,5 @@
-# CODEX JAVASCRIPT30
-
+# #CODEXJAVASCRIPT30
 By @wesbos
-#Codexjavascript30
-
-
 
 
 DAY 1: [Beatbox drum pad](https://sebarz.github.io/javascript-30/Beatbox/)
