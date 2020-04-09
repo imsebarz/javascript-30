@@ -2,6 +2,8 @@
 By @wesbos
 
 
+
+
 DAY 1: [Beatbox drum pad](https://sebarz.github.io/javascript-30/Beatbox/)
 
 DAY 2: [CSS Clock](https://sebarz.github.io/javascript-30/clock)
