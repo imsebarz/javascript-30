@@ -19,3 +19,7 @@ DAY 6: [Ajax type ahead](https://sebarz.github.io/javascript-30/typeAhead)
 DAY 7: [Array cardio day 2](https://sebarz.github.io/javascript-30/cardioDay2)
 
 DAY 8: [Fun with Canvas](https://sebarz.github.io/javascript-30/canvas)
+
+DAY 9: [Dev tools tricks](https://sebarz.github.io/javascript-30/devTools)
+
+DAY 10: [Hold shift to check multiple checkboxes](https://sebarz.github.io/javascript-30/checkBoxes)
