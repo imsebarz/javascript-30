@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hold Shift to Check Multiple Checkboxes</title>
+</head>
+<body>
+  <style>
+
+    html {
+      font-family: sans-serif;
+      background: black;
+      background-size: cover;
+      background-position:inherit;
+      background-repeat: no-repeat;
+    }
+
+    body{
+      height: 1000px;
+    }
+
+    button{
+      position: relative;
+      bottom: 700px;
+      left: 900px;
+      width: 100px;
+      height: 100px;
+    }
+
+    div{
+      align-items: center;
+    }
+
+    .inbox {
+      max-width: 400px;
+      margin: 30px auto;
+      background: white;
+      position: relative;
+      right: 200px;
+      border-radius: 5px;
+      box-shadow: 10px 0 rgba(0,0,0,0.1);
+    }
+
+    .inbox2 {
+      max-width: 450px;
+      margin: 30px auto;
+      background: white;
+      position: relative;
+      left: 175px;
+      bottom: 788.5px;
+      border-radius: 5px;
+      box-shadow: 10px 0 rgba(0,0,0,0.1);
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #F1F1F1;
+    }
+
+    .item:last-child {
+      border-bottom: 0;
+    }
+
+
+    input:checked + p {
+      background: #F9F9F9;
+      text-decoration: line-through;
+      color: red;
+    }
+
+    input[type="checkbox"] {
+      margin: 20px;
+      height: 20px;
+      width: 20px;
+    }
+
+    h1{
+      text-align: center;
+      background-color: white;
+      color: black;
+      align-items:center ;
+      margin: 0 auto;
+      width: 400px;
+      border-radius: 20px;
+      padding-bottom: 3px;
+    }
+
+    h2{
+      text-align: center;
+      background-color: white;
+      color: black;
+      align-items:center ;
+      margin: 0 auto;
+      width: 300px;
+      height: 20px;
+      font-size: medium;
+      padding-top:3px;
+      margin-top: 5px;
+      border-radius: 20px;
+    }
+
+    h3{
+      text-align: center;
+      background-color: white;
+      color: black;
+      margin: 0 auto;
+      width: 400px;
+      height: 50px;
+      font-size: 40px;
+      position: relative;
+      bottom: 800px;
+      border-radius: 20px;
+      transition: all 1s;
+    }    
+    
+    .description{
+      text-align: center;
+      background-color: white;
+      color: black;
+      margin: 0 auto;
+      width: 500px;
+      height: 40px;
+      font-size: 25px;
+      position: relative;
+      bottom: 800px;
+      border-radius: 20px;
+      transition: all 1s;
+    }
+
+    p {
+      margin: 0;
+      padding: 20px;
+      transition: background 0.2s;
+      flex: 1;
+      font-family: 'helvetica neue';
+      font-size: 25px;
+      font-weight: 200;
+      border-left: 1px solid #D1E2FF;
+    }
+  </style>
+   <!--
+   The following is a common layout you would see in an email client.
+   When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes in-between those two checkboxes should be checked.
+  -->
+
+  <div>
+    <h1>¿Que tan nea eres?</h1>
+    <h2>Marca las que utilizas</h2>
+  </div>
+  <div class="inbox">
+    <div class="item">
+      <input type="checkbox">
+      <p>Oe</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Oelo</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Hablalo</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Nea</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Neider</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Caravana</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Socio</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Papi/Mami</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Agonía</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>De Rose/Borondo</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Que vuelta!</p>
+    </div>
+  </div>
+
+
+  <div class="inbox2">
+    <div class="item">
+      <input type="checkbox">
+      <p>Que visaje!</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Tan marica/Güevón</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Melo</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Melany/Melody</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>De buena/A lo bien</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Sorner/Sornero</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Sapoperro</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Sisas</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Güiro/Tropel</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>No asara</p>
+    </div>
+    <div class="item">
+      <input type="checkbox">
+      <p>Lukas</p>
+    </div>
+  </div>
+  <h3 class="porcentaje">Empieza</h3>
+  <h3 class="description">A marcar</h3>
+
+
+<script>
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+let cuanto = 0;
+
+function contarNeas(){
+  chekiados = document.querySelectorAll('input[type="checkbox"]:checked').length;
+  cuanto = 4.54545454545 * chekiados;
+  const porcentaje = document.querySelector('.porcentaje');
+  const description = document.querySelector('.description');
+  porcentaje.textContent = `${Math.round(cuanto)}% NEA`;
+  if(cuanto < 33.33){
+    description.textContent = "Neita principiante";
+    porcentaje.style.backgroundColor = 'greenyellow';
+  }else if(cuanto >= 33.33 && cuanto <= 66.66){
+    description.textContent = "Te gusta la calle, pero te falta";
+    porcentaje.style.backgroundColor = 'yellow';
+  }else{
+    description.textContent = "Valija certificad@ por el SENA. si l@ ven por la calle, pásense de acera";
+    porcentaje.style.backgroundColor = 'red';
+    description.style.fontSize = '18px'
+
+  }
+}
+
+let lastChecked;
+
+function handleCheck(e) {
+  // Check if they had the shift key down
+  // AND check that they are checking it
+  let inBetween = false;
+  if (e.shiftKey) {
+    // go ahead and do what we please
+    // loop over every single checkbox
+    checkboxes.forEach(checkbox => {
+      console.log(checkbox);
+      if (checkbox === this || checkbox === lastChecked) {
+        inBetween = !inBetween;
+        console.log('Starting to check them in between!');
+      }
+
+      if (inBetween) {
+        checkbox.checked = true;
+      }
+    });
+  }
+  lastChecked = this;
+}
+checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck))
+checkboxes.forEach(checkbox => checkbox.addEventListener('click', contarNeas))
+</script>
+</body>
+</html>
