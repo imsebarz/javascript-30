@@ -22,4 +22,4 @@ DAY 8: [Fun with Canvas](https://sebarz.github.io/javascript-30/canvas)
 
 DAY 9: [Dev tools tricks](https://sebarz.github.io/javascript-30/devTools)
 
-DAY 10: [Hold shift to check multiple checkboxes](https://sebarz.github.io/javascript-30/checkBoxes)
+DAY 10: [How nea are you](https://sebarz.github.io/javascript-30/howNea)
