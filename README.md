@@ -1,5 +1,4 @@
 # #CODEXJAVASCRIPT30
-By @wesbos
 
 
 
@@ -23,3 +22,7 @@ DAY 8: [Fun with Canvas](https://sebarz.github.io/javascript-30/canvas)
 DAY 9: [Dev tools tricks](https://sebarz.github.io/javascript-30/devTools)
 
 DAY 10: [How much NEA are you](https://sebarz.github.io/javascript-30/howNea)
+
+DAY 11: [Custom video player](https://sebarz.github.io/javascript-30/videoPlayer)
+
+DAY 12: [Key detection](https://sebarz.github.io/javascript-30/keyDetection)
