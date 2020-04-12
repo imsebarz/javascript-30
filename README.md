@@ -1,5 +1,4 @@
 # #CODEXJAVASCRIPT30
-By @wesbos
 
 
 
