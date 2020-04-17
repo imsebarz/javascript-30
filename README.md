@@ -26,3 +26,5 @@ DAY 10: [How much NEA are you](https://sebarz.github.io/javascript-30/howNea)
 DAY 11: [Custom video player](https://sebarz.github.io/javascript-30/videoPlayer)
 
 DAY 12: [Key detection](https://sebarz.github.io/javascript-30/keyDetection)
+
+DAY 13: [Photolalaphy Portfolio](https://sebarz.github.io/javascript-30/keyDetection)
