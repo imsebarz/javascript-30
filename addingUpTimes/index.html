@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Videos</title>
+  </head>
+  <body>
+    <h1>PELICULAS DE STAR WARS Y SU DURACIÓN</h1>
+    <ul class="videos">
+      <li data-time="121:00">
+        Star Wars: Episode IV - A New Hope
+        <p>Duración: 121 Mins</p>
+      </li>
+      <li data-time="124:00">
+        Star Wars: Episode V - The Empire Strikes Back
+        <p>Duración: 124 Mins</p>
+      </li>
+      <li data-time="131:00">
+        Star Wars: Episode VI - Return Of The Jedi
+        <p>Duración: 131 Mins</p>
+      </li>
+      <li data-time="136:00">
+        Star Wars: Episode I - The Phantom Menace
+        <p>Duración: 136 Mins</p>
+      </li>
+      <li data-time="142:00">
+        Star Wars: Episode II - Attack Of The Clones
+        <p>Duración: 142 Mins</p>
+      </li>
+      <li data-time="140:00">
+        Star Wars: Episode III - Revenge Of The Sith
+        <p>Duración: 140 Mins</p>
+      </li>
+      <li data-time="136:00">
+        Star Wars: The Force Awakens
+        <p>Duración: 136 Mins</p>
+      </li>
+      <li data-time="133:00">
+        Rogue One: A Star Wars Story
+        <p>Duración: 133 Mins</p>
+      </li>
+      <li data-time="152:00">
+        Star Wars: The Last Jedi
+        <p>Duración: 152 Mins</p>
+      </li>
+      <li data-time="135:00">
+        Solo: A Star Wars Story
+        <p>Duración: 135 Mins</p>
+      </li>
+      <li data-time="142:00">
+        Star Wars: The Rise Of Skywalker
+        <p>Duración: 142 Mins</p>
+      </li>
+    </ul>
+    <div>
+      <h1 class="duracion">Duración total:</h1>
+    </div>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        font-size: 2.8em;
+        margin: 20px;
+      }
+
+      .videos {
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        height: fit-content;
+        justify-content: center;
+      }
+      .videos li {
+        margin: 10px;
+        padding: 30px;
+        width: 200px;
+        height: 90px;
+        align-items: center;
+        justify-content: space-around;
+        border: 4px solid yellow;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        font-family: sans-serif;
+        font-size: 1.3em;
+        font-weight: 600;
+      }
+
+      .videos li p {
+        font-size: 0.8em;
+        font-weight: 500;
+      }
+    </style>
+    <script>
+      const timeNodes = Array.from(document.querySelectorAll("[data-time]"));
+      const h2 = document.querySelector(".duracion");
+      const seconds = timeNodes
+        .map((node) => node.dataset.time)
+        .map((timeCode) => {
+          const [mins, secs] = timeCode.split(":").map(parseFloat);
+          return mins * 60 + secs;
+        })
+        .reduce((total, vidSeconds) => total + vidSeconds);
+
+      let secondsLeft = seconds;
+      const hours = Math.floor(secondsLeft / 3600);
+      secondsLeft = secondsLeft % 3600;
+
+      const mins = Math.floor(secondsLeft / 60);
+      secondsLeft = secondsLeft % 60;
+
+      h2.textContent = `Duración total: ${hours}h ${mins}m`;
+    </script>
+  </body>
+</html>
