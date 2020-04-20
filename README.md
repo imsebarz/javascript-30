@@ -27,4 +27,14 @@ DAY 11: [Custom video player](https://sebarz.github.io/javascript-30/videoPlayer
 
 DAY 12: [Key detection](https://sebarz.github.io/javascript-30/keyDetection)
 
-DAY 13: [Photolalaphy Portfolio](https://sebarz.github.io/javascript-30/keyDetection)
+DAY 13: [Photolalaphy Portfolio](https://sebarz.github.io/javascript-30/Photolalaphy)
+
+DAY 14: [Reference VS Copy](https://sebarz.github.io/javascript-30/referenceVSCopy)
+
+DAY 15: [Local Storage](https://sebarz.github.io/javascript-30/localStorage)
+
+DAY 16: [CSS Shadows](https://sebarz.github.io/javascript-30/shadow)
+
+DAY 17: [Sorting band names](https://sebarz.github.io/javascript-30/sorting)
+
+DAY 18: [Star wars movies duration](https://sebarz.github.io/javascript-30/SWTimes)
