@@ -40,3 +40,5 @@ DAY 17: [Sorting band names](https://sebarz.github.io/javascript-30/sorting)
 DAY 18: [Star wars movies duration](https://sebarz.github.io/javascript-30/SWTimes)
 
 DAY 19: [Webcam Fun](https://sebarz.github.io/javascript-30/webcamFun)
+
+DAY 20: [Speech Recognition](https://sebarz.github.io/javascript-30/speechRecognition)
