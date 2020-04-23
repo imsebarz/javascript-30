@@ -42,3 +42,7 @@ DAY 18: [Star wars movies duration](https://sebarz.github.io/javascript-30/SWTim
 DAY 19: [Webcam Fun](https://sebarz.github.io/javascript-30/webcamFun)
 
 DAY 20: [Speech Recognition](https://sebarz.github.io/javascript-30/speechRecognition)
+
+DAY 21: [Geolocation](https://sebarz.github.io/javascript-30/speechRecognition)
+
+DAY 22: [Follow links](https://sebarz.github.io/javascript-30/speechRecognition)
