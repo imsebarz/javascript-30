@@ -45,4 +45,20 @@ DAY 20: [Speech Recognition](https://sebarz.github.io/javascript-30/speechRecogn
 
 DAY 21: [Geolocation](https://sebarz.github.io/javascript-30/geolocation)
 
-DAY 22: [Follow links](https://sebarz.github.io/javascript-30/followLinks)
+DAY 22: [Follow Links](https://sebarz.github.io/javascript-30/followLinks)
+
+DAY 23: [Speech Synthesis](https://sebarz.github.io/javascript-30/speechSynthesis)
+
+DAY 24: [Sticky Nav](https://sebarz.github.io/javascript-30/stickyNav)
+
+DAY 25: [Event Capture](https://sebarz.github.io/javascript-30/eventCapture)
+
+DAY 26: [Follow Along Nav](https://sebarz.github.io/javascript-30/alongNav)
+
+DAY 27: [Drag and Cats](https://sebarz.github.io/javascript-30/clickAndDrag)
+
+DAY 28: [Video Speed Controller](https://sebarz.github.io/javascript-30/videoSpeed)
+
+DAY 29: [Countdown Timer](https://sebarz.github.io/javascript-30/countdownTimer)
+
+DAY 30: [Whack-A-Mole](https://sebarz.github.io/javascript-30/whackAMole)
